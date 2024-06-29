@@ -109,15 +109,20 @@ print('WITH K=23')
 print(confusion_matrix(y_test, pred))
 print(classification_report(y_test, pred))
 ```
-<br><br><br><br>
+<br>
 <hr/>
-<br><br><br><br>
+<br>
 <h2 align="center">Results</h2>
 
+<div align="center">
+    
 ### Error Rate vs K-Value
-<img src="">
 
-The model with k=23 demonstrated a higher accuracy and better classification performance compared to k=1.
+<img src="Knn-Results/results.png">
+
+<p>The model with k=23 demonstrated a higher accuracy and better classification performance compared to k=1.</p>
+</div>
+<br>
 
 ### Confusion Matrix with k=23:
 ```plaintext
@@ -135,7 +140,7 @@ The model with k=23 demonstrated a higher accuracy and better classification per
 avg / total       0.95      0.95      0.95       300
 ```
 
-### Conclusion
+<h2 align="center">Conclusion</h2>
 The KNN Classifier, with its simplicity and effectiveness, proved to be a powerful tool for classification tasks. After selecting the optimal k value, the model showed a significant improvement in performance metrics, making it a reliable choice for predicting class labels in this dataset.
 
 ## Contributing
